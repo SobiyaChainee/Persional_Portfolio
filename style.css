@@ -213,6 +213,47 @@
                     box-shadow: 0px 0px 30px #0000002f;
                     border-radius: 20px;
                 }
+                /* Contact */
+                
+                .contact .container {
+                    margin-top: 80px;
+                    text-align: center;
+                    background: #E9F9FF;
+                    padding: 60px;
+                    border-radius: 20px;
+                }
+                
+                .contact .container h3 {
+                    margin: 40px 0px;
+                }
+                
+                .contact .fa {
+                    margin-right: 30px;
+                    font-size: 30px;
+                    color: var(--blue);
+                }
+                
+                .contact .quick-links {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                }
+                
+                .contact .quick-links ul {
+                    display: flex;
+                }
+                
+                .contact .quick-links ul li {
+                    margin: 0px 20px;
+                    color: var(--dark-purple);
+                    font-weight: bold;
+                    cursor: pointer;
+                }
+                
+                .copyright p {
+                    color: var(--dark-purple);
+                    font-weight: bold;
+                }
                 /*
             .my-skill {
                 text-align: center;
@@ -410,5 +451,24 @@
                     .portfolio .title .ctn-title {
                         flex-direction: column;
                         text-align: left;
+                    }
+                    .contact .container {
+                        padding: 10px;
+                        padding-bottom: 20px;
+                    }
+                    .contact .container h1 {
+                        font-size: 20px;
+                    }
+                    .contact .quick-links {
+                        flex-direction: column;
+                    }
+                    .contact .quick-links img {
+                        width: 50px;
+                    }
+                    .contact .quick-links ul li {
+                        margin: 0px 5px;
+                    }
+                    .copyright p {
+                        font-size: 12px;
                     }
                 }
