@@ -39,6 +39,9 @@
         </div>
 
     </nav>
+    <div class="toggle-btn">
+        <i class="fa fa-bars"></i>
+    </div>
     <header class="header container">
         <div class="circle"></div>
         <div class="row hero">
@@ -53,7 +56,6 @@
                     <img src="./assets/me.jpg" alt="" />
                 </div>
             </div>
-
         </div>
     </header>
 
@@ -175,7 +177,7 @@
 
 -->
 
-
+    <!--
     <section class="about">
         <div class="head-about">
             <h1>About </h1>
@@ -193,7 +195,43 @@
                 <p>4th nhvghjvkh</p>
             </div>
         </div>
+    </section> -->
+
+    <!-- Contact -->
+    <section class="contact">
+        <div class="container">
+            <h3>CONTACT ME</h3>
+            <h1>Got A Project! Let's Talk</h1>
+            <h3><i class="fa fa-envelope-o"></i> hello@website.com</h3>
+            <div class="quick-links">
+                <div class="brand"><img src="./img/logo.png" alt=""></div>
+                <ul>
+                    <li>Home</li>
+                    <li>Skills</li>
+                    <li>Services</li>
+                    <li>About</li>
+                </ul>
+            </div>
+        </div>
+
     </section>
+
+    <div class="copyright container">
+        <p>© 2020 Gowtham Tirri | Subscribe on Youtube</p>
+    </div>
+
+
+    <script>
+        let togglebtn = document.querySelector('.toggle-btn')
+        let navbar = document.querySelector('.navbar')
+
+        togglebtn.addEventListener('click', () => {
+            navbar.classList.toggle('mobile-nav')
+        })
+    </script>
+</body>
+
+</html>
 
 
 </body>
