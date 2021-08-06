@@ -254,6 +254,77 @@
                     color: var(--dark-purple);
                     font-weight: bold;
                 }
+                /* Portfolio */
+                
+                .portfolio {
+                    margin-top: 150px;
+                    position: relative;
+                }
+                
+                .portfolio .title {
+                    text-align: left;
+                }
+                
+                .portfolio .title .ctn-title {
+                    display: flex;
+                    width: 100%;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+                
+                .ctn-title h4 {
+                    color: var(--dark-purple);
+                    cursor: pointer;
+                }
+                
+                .ctn-title .highlight {
+                    color: var(--pink);
+                }
+                
+                .portfolio .grid-wrapper {
+                    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+                    grid-gap: 20px;
+                }
+                
+                .rect-bg {
+                    width: 700px;
+                    height: 400px;
+                    background: var(--light-pink);
+                    position: absolute;
+                    top: -10%;
+                    right: -20%;
+                    z-index: -1;
+                    border-radius: 20px;
+                }
+                
+                .portfolio .grid-box {
+                    position: relative;
+                }
+                
+                .hover {
+                    position: absolute;
+                    top: 15%;
+                    left: 15%;
+                    width: 60%;
+                    height: 60%;
+                    background: var(--dark-purple);
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    flex-direction: column;
+                    color: whitesmoke;
+                    border-radius: 10px;
+                    transform: scaleX(0);
+                    transition: transform 0.5s ease;
+                }
+                
+                .hover .highlight {
+                    color: var(--pink);
+                }
+                
+                .portfolio .grid-box:hover .hover {
+                    transform: scaleX(1);
+                }
                 /*
             .my-skill {
                 text-align: center;
